@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: rgb(245, 232, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Young Serif", sans-serif;
+}
+.code{
+    background-color: white;
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 20px;
+    color: black;
+    
+}
+.code img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.preparation{
+    color: brown;
+}
+.prep{
+    background-color: rgb(245, 232, 237);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.code h1{
+    
+}
+table, th, td{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+@media screen and (max-width: 900px){
+    .code{
+        width: 300px;
+    }   
+    .code img{
+        max-width: 300px;
+    }
+} 
